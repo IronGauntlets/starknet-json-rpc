@@ -1,0 +1,10 @@
+_id: fld_67c6b8f8c4c543838a30ed3eb0fe04b8
+type: RequestGroup
+parentId: fld_be02783283ed4b04846f0688fc21c1df
+modified: 1662137587532
+created: 1662137582704
+name: starknet_chainId
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1662136868042.5

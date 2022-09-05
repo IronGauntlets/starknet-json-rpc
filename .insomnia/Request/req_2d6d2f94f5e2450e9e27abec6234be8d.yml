@@ -1,0 +1,32 @@
+_id: req_2d6d2f94f5e2450e9e27abec6234be8d
+type: Request
+parentId: fld_d0e6b7f590274cb59ca79e98236aa944
+modified: 1662402276315
+created: 1660769342499
+url: ""
+name: pendingTransactions
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"jsonrpc": "2.0",
+    	"id": 1,
+    	"method": "starknet_pendingTransactions",
+    	"params": []
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_130b82cb02b14d4c9dc9ee7214564344
+authentication: {}
+metaSortKey: -1658779086686.0488
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_944bc93476a64c34b2eb9c8070b96b20
+type: Request
+parentId: fld_dd000aa9c53b48e985e2c8dc2bdf120b
+modified: 1662401952804
+created: 1660830484154
+url: "{{ _.protocol }}://{{ _.ip_address }}:{{ _.port }}/{{ _.namespace }}"
+name: protocolVersion
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"jsonrpc": "2.0",
+    	"id": 1,
+    	"method": "starknet_protocolVersion",
+    	"params": []
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_130b82cb02b14d4c9dc9ee7214564344
+authentication: {}
+metaSortKey: -1658779086673.5244
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

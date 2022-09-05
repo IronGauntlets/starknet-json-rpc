@@ -1,0 +1,32 @@
+_id: req_0612b41f458b4dd0a173fff92e651033
+type: Request
+parentId: fld_e45a7b5c69324d639d94bb67f3252268
+modified: 1662402288774
+created: 1659489960669
+url: ""
+name: syncing
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"jsonrpc": "2.0",
+    	"method": "starknet_syncing",
+    	"params": [],
+    	"id": "25"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ade24996eed1444192288c37b912c3d5
+authentication: {}
+metaSortKey: -1658779086661
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

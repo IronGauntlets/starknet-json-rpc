@@ -1,0 +1,42 @@
+_id: req_1e3d6ca136534fa49bed97ecf9f7bab7
+type: Request
+parentId: fld_7bf1cd1019e54d26aaaf1488d76c6033
+modified: 1662402220294
+created: 1660768604349
+url: ""
+name: call
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"jsonrpc": "2.0",
+    	"id": 1,
+    	"method": "starknet_call",
+    	"params": {
+    		"request": {
+    			"contract_address": "0x0359e0babcb98350f6763b6fd556f2efed3757313962922dd9c8bb2561a456ae",
+    				"entry_point_selector": "0x0218f305395474a84a39307fa5297be118fe17bf65e27ac5e2de6617baa44c64",
+    				"calldata": [
+    					"0x0421203c58e1b4a6c3675be26cfaa18d2b6b42695ca206be1f08ce29f7f1bc7c",
+    					"0x0000000000000000000000000000000000000000000000000000000000000000"
+    				]
+    		},
+    		"block_id": 16
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_130b82cb02b14d4c9dc9ee7214564344
+authentication: {}
+metaSortKey: -1658779086687.5625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

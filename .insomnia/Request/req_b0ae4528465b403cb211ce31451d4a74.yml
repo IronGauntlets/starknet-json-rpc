@@ -1,0 +1,32 @@
+_id: req_b0ae4528465b403cb211ce31451d4a74
+type: Request
+parentId: fld_ae416dca7d3c421f89f8f6d2da7491f2
+modified: 1662402215692
+created: 1662402212007
+url: "{{ _.protocol }}://{{ _.ip_address }}:{{ _.port }}/{{ _.namespace }}"
+name: getBlockTransactionCount
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "starknet_getBlockTransactionCount",
+        "params": [74]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_130b82cb02b14d4c9dc9ee7214564344
+authentication: {}
+metaSortKey: -1658779086705.5312
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

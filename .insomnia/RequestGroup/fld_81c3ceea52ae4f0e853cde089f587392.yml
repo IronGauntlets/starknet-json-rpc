@@ -1,0 +1,10 @@
+_id: fld_81c3ceea52ae4f0e853cde089f587392
+type: RequestGroup
+parentId: fld_3930da1461f844b6bd7de5e457aea7b2
+modified: 1662137366866
+created: 1662137360033
+name: starknet_getClassAt
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1662136960813

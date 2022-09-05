@@ -1,0 +1,10 @@
+_id: fld_dd000aa9c53b48e985e2c8dc2bdf120b
+type: RequestGroup
+parentId: fld_3930da1461f844b6bd7de5e457aea7b2
+modified: 1662396095472
+created: 1662396090836
+name: starknet_protocolVersion
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1662136960413

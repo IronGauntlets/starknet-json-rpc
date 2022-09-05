@@ -1,0 +1,32 @@
+_id: req_b593179f86f84dada69640720672a26c
+type: Request
+parentId: fld_f1e14f99d4dd4467a47bf39e4ce7c81d
+modified: 1662402296537
+created: 1660830524814
+url: ""
+name: getEvents
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"jsonrpc": "2.0",
+    	"method": "starknet_getEvents",
+    	"params": [],
+    	"id": "25"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ade24996eed1444192288c37b912c3d5
+authentication: {}
+metaSortKey: -1658779086611
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

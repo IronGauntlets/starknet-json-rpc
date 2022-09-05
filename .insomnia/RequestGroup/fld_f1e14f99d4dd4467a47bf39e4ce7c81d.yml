@@ -1,0 +1,10 @@
+_id: fld_f1e14f99d4dd4467a47bf39e4ce7c81d
+type: RequestGroup
+parentId: fld_3930da1461f844b6bd7de5e457aea7b2
+modified: 1662396160551
+created: 1662396151450
+name: starknet_getEvents
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1662136960313

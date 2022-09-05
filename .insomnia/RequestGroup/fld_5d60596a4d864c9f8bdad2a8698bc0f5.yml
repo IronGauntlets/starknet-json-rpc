@@ -1,0 +1,10 @@
+_id: fld_5d60596a4d864c9f8bdad2a8698bc0f5
+type: RequestGroup
+parentId: fld_3930da1461f844b6bd7de5e457aea7b2
+modified: 1662137275426
+created: 1662137266933
+name: starknet_getTransactionReceipt
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1662136960963

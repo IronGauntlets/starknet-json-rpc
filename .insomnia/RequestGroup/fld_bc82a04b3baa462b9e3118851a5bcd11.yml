@@ -1,0 +1,10 @@
+_id: fld_bc82a04b3baa462b9e3118851a5bcd11
+type: RequestGroup
+parentId: fld_be02783283ed4b04846f0688fc21c1df
+modified: 1662137051729
+created: 1662136995361
+name: starknet_getBlockWithTxs
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1662136868742.5

@@ -1,0 +1,32 @@
+_id: req_1aa234c061e6440094d23544b326f8ec
+type: Request
+parentId: fld_67c6b8f8c4c543838a30ed3eb0fe04b8
+modified: 1662402272535
+created: 1662402269121
+url: "{{ _.protocol }}://{{ _.ip_address }}:{{ _.port }}/{{ _.namespace }}"
+name: chainId
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"jsonrpc": "2.0",
+    	"id": 1,
+    	"method": "starknet_chainId",
+    	"params": []
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_130b82cb02b14d4c9dc9ee7214564344
+authentication: {}
+metaSortKey: -1658779086686.0732
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,10 @@
+_id: fld_6f235818ddd947179201b37123a833d3
+type: RequestGroup
+parentId: fld_be02783283ed4b04846f0688fc21c1df
+modified: 1662137492558
+created: 1662137484886
+name: starknet_call
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1662136868242.5

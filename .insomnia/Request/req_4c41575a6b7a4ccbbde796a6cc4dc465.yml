@@ -1,0 +1,35 @@
+_id: req_4c41575a6b7a4ccbbde796a6cc4dc465
+type: Request
+parentId: fld_73c5a7a53250426199b30309e9b55c3c
+modified: 1662402102462
+created: 1662402099499
+url: "{{ _.protocol }}://{{ _.ip_address }}:{{ _.port }}/{{ _.namespace }}"
+name: getClassHashAt
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"jsonrpc": "2.0",
+    	"id": 1,
+    	"method": "starknet_getClassHashAt",
+    	"params": {
+    		"block_id": 10,
+    		"address": "0x06f3c934ba4ec49245cb9a42fc715e4d589aa502af69be13916127a538d525ce"
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_130b82cb02b14d4c9dc9ee7214564344
+authentication: {}
+metaSortKey: -1658779086723.5488
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

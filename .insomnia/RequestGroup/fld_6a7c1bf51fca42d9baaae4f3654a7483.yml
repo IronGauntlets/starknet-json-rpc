@@ -1,0 +1,10 @@
+_id: fld_6a7c1bf51fca42d9baaae4f3654a7483
+type: RequestGroup
+parentId: fld_be02783283ed4b04846f0688fc21c1df
+modified: 1662137513746
+created: 1662137500985
+name: starknet_estimateFee
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1662136868192.5

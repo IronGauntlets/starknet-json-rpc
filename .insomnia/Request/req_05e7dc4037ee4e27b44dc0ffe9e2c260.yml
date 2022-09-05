@@ -1,0 +1,32 @@
+_id: req_05e7dc4037ee4e27b44dc0ffe9e2c260
+type: Request
+parentId: fld_224c7ddead8e46ceaab36e2be47d32b7
+modified: 1662402260819
+created: 1662402252787
+url: "{{ _.protocol }}://{{ _.ip_address }}:{{ _.port }}/{{ _.namespace }}"
+name: blockHashAndNumber
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"jsonrpc": "2.0",
+    	"id": 1,
+    	"method": "starknet_blockHashAndNumber",
+    	"params": []
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_130b82cb02b14d4c9dc9ee7214564344
+authentication: {}
+metaSortKey: -1658779086686.1465
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

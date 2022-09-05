@@ -1,0 +1,34 @@
+_id: req_ce50254702b84eb5a84654725091b1bd
+type: Request
+parentId: fld_5d60596a4d864c9f8bdad2a8698bc0f5
+modified: 1662402073555
+created: 1660830343126
+url: ""
+name: getTransactionReceipt
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"jsonrpc": "2.0",
+    	"id": 1,
+    	"method": "starknet_getTransactionReceipt",
+    	"params": {
+    		"transaction_hash": "0x025b578043e8fdc1befecfdd30ca77642fe115131554f32b2ef696a8223931ee"
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_130b82cb02b14d4c9dc9ee7214564344
+authentication: {}
+metaSortKey: -1658779086723.8906
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

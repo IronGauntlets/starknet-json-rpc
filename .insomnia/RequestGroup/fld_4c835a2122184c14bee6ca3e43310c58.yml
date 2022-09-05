@@ -1,0 +1,10 @@
+_id: fld_4c835a2122184c14bee6ca3e43310c58
+type: RequestGroup
+parentId: fld_be02783283ed4b04846f0688fc21c1df
+modified: 1662137116808
+created: 1662137113771
+name: starknet_getStateUpdate
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1662136868692.5

@@ -1,0 +1,10 @@
+_id: fld_59cac32c58bb486597c250f0bb748ec0
+type: RequestGroup
+parentId: fld_be02783283ed4b04846f0688fc21c1df
+modified: 1662396247618
+created: 1662396240568
+name: starknet_getNonce
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1662136867842.5

@@ -1,0 +1,34 @@
+_id: req_4e57b46ad5c9434ca961db89a8680189
+type: Request
+parentId: fld_5f9b76ebc2824cc4a963aee23ab10c8c
+modified: 1662401886029
+created: 1659702300673
+url: "{{ _.protocol }}://{{ _.ip_address }}:{{ _.port }}/{{ _.namespace }}"
+name: getBlockWithTxs
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "starknet_getBlockWithTxs",
+        "params": {
+    			"block_id": 44
+    		}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_130b82cb02b14d4c9dc9ee7214564344
+authentication: {}
+metaSortKey: -1658779086736
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

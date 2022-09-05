@@ -1,0 +1,32 @@
+_id: req_67733cd6e2ae4255b81546f42cef9ffd
+type: Request
+parentId: fld_a2699d2851864bf2b1aa2a1a9aa1ae2b
+modified: 1662402242552
+created: 1660768878039
+url: ""
+name: blockNumber
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"jsonrpc": "2.0",
+    	"id": 1,
+    	"method": "starknet_blockNumber",
+    	"params": []
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_130b82cb02b14d4c9dc9ee7214564344
+authentication: {}
+metaSortKey: -1658779086686.3906
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,10 @@
+_id: fld_b796a1360c3741f4b9cdcdf8eca5b19c
+type: RequestGroup
+parentId: fld_3930da1461f844b6bd7de5e457aea7b2
+modified: 1662137392339
+created: 1662137385647
+name: starknet_getBlockTransactionCount
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1662136960763

@@ -1,0 +1,34 @@
+_id: req_7702742a5fb3465186cb579ca01020fb
+type: Request
+parentId: fld_f613d0397d8043338450f66694e73b4f
+modified: 1662402045688
+created: 1658779086711
+url: ""
+name: getTransactionByHash
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"jsonrpc": "2.0",
+    	"id": 1,
+    	"method": "starknet_getTransactionByHash",
+    	"params": {
+    		"transaction_hash": "0x058fdd84faf17d323a0de3bc53e837ec1f7f61f3172c6ecf174248b7e51168db"
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_130b82cb02b14d4c9dc9ee7214564344
+authentication: {}
+metaSortKey: -1662136961038
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

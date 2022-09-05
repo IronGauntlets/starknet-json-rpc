@@ -1,0 +1,34 @@
+_id: req_87a31dcdc8454df89afda4416206254f
+type: Request
+parentId: fld_4c835a2122184c14bee6ca3e43310c58
+modified: 1662402029725
+created: 1662402023910
+url: "{{ _.protocol }}://{{ _.ip_address }}:{{ _.port }}/{{ _.namespace }}"
+name: getStateUpdate
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "starknet_getStateUpdate",
+        "params": {
+    			"block_id": 44
+    		}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_130b82cb02b14d4c9dc9ee7214564344
+authentication: {}
+metaSortKey: -1658779086728.1875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

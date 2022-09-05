@@ -1,0 +1,32 @@
+_id: req_e04ec9473045470eb024ff3a33720801
+type: Request
+parentId: fld_59cac32c58bb486597c250f0bb748ec0
+modified: 1662402316238
+created: 1660830547206
+url: ""
+name: getNonce
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"jsonrpc": "2.0",
+    	"method": "starknet_getNonce",
+    	"params": [],
+    	"id": "25"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ade24996eed1444192288c37b912c3d5
+authentication: {}
+metaSortKey: -1662136867792.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

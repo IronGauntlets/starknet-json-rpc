@@ -1,0 +1,10 @@
+_id: fld_cded99a66dd54670b2ff475955661375
+type: RequestGroup
+parentId: fld_be02783283ed4b04846f0688fc21c1df
+modified: 1662137254791
+created: 1662137247697
+name: starknet_getTransactionByBlockIdAndIndex
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1662136868542.5

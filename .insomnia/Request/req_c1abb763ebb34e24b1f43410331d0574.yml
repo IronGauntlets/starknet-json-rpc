@@ -1,0 +1,36 @@
+_id: req_c1abb763ebb34e24b1f43410331d0574
+type: Request
+parentId: fld_a7513ba7ab294f248c35e44039dc3a09
+modified: 1662402042566
+created: 1662402039468
+url: "{{ _.protocol }}://{{ _.ip_address }}:{{ _.port }}/{{ _.namespace }}"
+name: getStorageAt
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"jsonrpc": "2.0",
+    	"id": 1,
+    	"method": "starknet_getStorageAt",
+    	"params": {
+    		"contract_address": "0x06f3c934ba4ec49245cb9a42fc715e4d589aa502af69be13916127a538d525ce",
+    		"key": "0x045e27ed2481cf4eb3cb2e80f63a499ac7f287880ab0f1eab02ef634c37e086c",
+    		"block_id": 13
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_130b82cb02b14d4c9dc9ee7214564344
+authentication: {}
+metaSortKey: -1658779086725.4531
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_a676e42723154d019070994c7e8ebb4d
+type: Request
+parentId: fld_7afddbd50f1547d1a60d694a63f46c7a
+modified: 1662402230428
+created: 1660768833066
+url: ""
+name: estimateFee
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"jsonrpc": "2.0",
+    	"id": 1,
+    	"method": "starknet_estimateFee",
+    	"params": []
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_130b82cb02b14d4c9dc9ee7214564344
+authentication: {}
+metaSortKey: -1658779086686.7812
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

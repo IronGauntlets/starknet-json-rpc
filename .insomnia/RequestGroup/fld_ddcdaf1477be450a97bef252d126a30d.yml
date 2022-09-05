@@ -1,0 +1,10 @@
+_id: fld_ddcdaf1477be450a97bef252d126a30d
+type: RequestGroup
+parentId: fld_3930da1461f844b6bd7de5e457aea7b2
+modified: 1662137563412
+created: 1662137558937
+name: starknet_blockHashAndNumber
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1662136960563

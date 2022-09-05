@@ -1,0 +1,35 @@
+_id: req_81745265cfa2450b95f5f10a6525da85
+type: Request
+parentId: fld_b46d40ac44e2479aa2caa6e4816b7da6
+modified: 1662402064856
+created: 1660767360145
+url: ""
+name: getTransactionByBlockAndIndex
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"jsonrpc": "2.0",
+    	"id": 1,
+    	"method": "starknet_getTransactionByBlockIdAndIndex",
+    	"params": {
+    		"block_id": 10,
+    		"index": 1
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_130b82cb02b14d4c9dc9ee7214564344
+authentication: {}
+metaSortKey: -1658779086724.2812
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

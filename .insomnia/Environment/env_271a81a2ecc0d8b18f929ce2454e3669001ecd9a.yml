@@ -1,0 +1,20 @@
+_id: env_271a81a2ecc0d8b18f929ce2454e3669001ecd9a
+type: Environment
+parentId: wrk_cee9bd7daa5a41bcbff6dd374335523f
+modified: 1662402161891
+created: 1658779018946
+name: Base Environment
+data:
+  protocol: http
+  ip_address: localhost
+  port: 6060
+  namespace: rpc
+dataPropertyOrder:
+  "&":
+    - protocol
+    - ip_address
+    - port
+    - namespace
+color: null
+isPrivate: false
+metaSortKey: 1658779018946
